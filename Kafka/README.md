@@ -1,5 +1,4 @@
-Here are the formal technical definitions of the primary Apache Kafka architectural concepts, paired with concrete engineering examples.
-
+Kafka Fundamentals
 ---
 
 ### 1. Record (Event)
