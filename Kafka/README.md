@@ -59,7 +59,7 @@ Topic: payment.settlements
 
 * **Definition:** An optional identifier supplied with a record that controls deterministic routing to a specific partition. By default, Kafka applies the `murmur2` hashing algorithm on the serialized key bytes:
 
-```\text{Target Partition} = \left(\text{murmur2}(\text{serializedKey}) \ \& \ \text{0x7fffffff}\right) \pmod{\text{numPartitions}}```
+$$\text{Target Partition} = (\text{murmur2}(\text{serializedKey}) \text{ AND } \text{0x7fffffff}) \pmod{\text{numPartitions}}$$
 
 
 
